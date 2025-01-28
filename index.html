@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="app.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+    <script src="app.js" type="module"></script>
+</head>
+<body>
+  <h1>Theremin with Mediapipe Hand Tracking</h1>
+
+  <section id="demos" class="invisible">
+    <p>Move your hand in front of your webcam to change the tone's frequency and gain.</p>
+
+    <div id="liveView" class="videoView">
+      <button id="webcamButton" >
+        <span ></span>
+        <span >Enable Webcam</span>
+      </button>
+      <div style="position: relative;">
+        <video id="webcam" style="position: abso" autoplay playsinline></video>
+        <canvas class="output_canvas" id="output_canvas" style="position: absolute; left: 0px; top: 0px;"></canvas>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
