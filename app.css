@@ -5,9 +5,15 @@ body {
 }
 
 h1 {
-  color: #007f8b;
+  color: #dc3a0d;
+}
+h4 {
+  color: #dc3a0d;
 }
 
+.header {
+  color: #007f8b;
+}
 h2 {
   clear: both;
 }
