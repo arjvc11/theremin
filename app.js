@@ -94,9 +94,9 @@ let gainNode = null;
 const WIDTH = 1;
 const HEIGHT = 1;
 
-const maxFreq = 2000;
-const maxVol = 0.05;
-const initialVol = 0.001;
+const maxFreq = 2000000000;
+const maxVol = 0.09;
+const initialVol = 0.10;
 
 function enableAudio(event) {
 
